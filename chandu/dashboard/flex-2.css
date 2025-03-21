@@ -1,0 +1,54 @@
+|html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    margin: 5px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    height: 200px;
+}
+
+.col1 {
+    width: 33.33%;
+    background-color: blue;
+}
+
+.col2 {
+    width: 33.33%;
+    background-color: green;
+}
+
+.col3 {
+    width: 30.33%;
+    background-color: orange;
+}
+
+.col4 {
+    width: 100%;
+    background-color: violet;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 0;
+}
+
+.col5 {
+    width: 50%;
+    background-color: brown;
+}
+
+.col6 {
+    width: 47%;
+    background-color: blue;
+}
