@@ -1,0 +1,126 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+
+
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.image {
+    width: 40%;
+
+
+}
+
+img {
+    width: 90%;
+    height: 100%;
+}
+
+.login {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 140px;
+    top: 140px;
+
+}
+
+.card {
+    width: 605px;
+    height: 398px;
+}
+
+h5 {
+    font-weight: 400;
+    padding-left: 4px;
+    margin: 0;
+    font-size: 16px;
+    margin-bottom: 42px;
+}
+
+h2 {
+    margin-bottom: 13px;
+}
+
+.details {
+    width: 605px;
+    height: 274px;
+}
+
+.details>input {
+    width: 305px;
+    border-radius: 6px;
+
+    background-color: #ffff;
+    height: 21px;
+    color: #737988;
+    border: #737988;
+}
+
+.email {
+    margin-bottom: 36px;
+}
+
+.details>h4 {
+    color: #353945;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.details>p {
+    padding-left: 220px;
+    font-size: x-small;
+    color: #ff0000;
+}
+
+.button>input {
+    width: 305px;
+    border-radius: 20px;
+    background-color: #F54749;
+    height: 31px;
+    color: #ffff;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 6px;
+    padding-bottom: 12px;
+    border: none;
+}
+
+
+.social>p {
+    color: #718096;
+    padding-left: 90px;
+    font-size: 12px;
+}
+
+.social>img {
+    width: 223px;
+    height: 52px;
+    padding-left: 40px;
+}
+
+.social>h3 {
+    color: #777E90;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 35px;
+    padding-left: 45px;
+}
+
+span {
+    color: #141416;
+}

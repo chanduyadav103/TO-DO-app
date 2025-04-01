@@ -1,0 +1,145 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 10px;
+    padding-left: 18px;
+}
+
+.side {
+    width: 1920px;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    left: 85%;
+    top: 0;
+    column-gap: 35px;
+    color: #9AA0A6;
+}
+
+.side>span {
+    background-color: #00CB18;
+    color: #000000;
+
+    height: 44px;
+    border-radius: 5px;
+    padding-left: 1.67px;
+
+}
+
+.sign {
+    color: white;
+    padding-left: 9px;
+    padding-right: 9.28px;
+    padding-top: 99.5px;
+    width: 308px;
+    height: 170px;
+}
+
+.sign>span {
+    color: white;
+    font-size: 16px;
+    padding-left: 49px;
+}
+
+.create {
+    text-decoration: underline;
+    color: #00CB18;
+
+}
+
+.details {
+    width: 500px;
+    height: 487px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.card {
+    background-color: #141414;
+    position: relative;
+    right: 120px;
+    height: 325px;
+    border-radius: 10px;
+    border-color: #242424;
+    padding-left: 41px;
+    padding-right: 41px;
+    padding-top: 41px;
+    padding-bottom: 21px;
+}
+
+.card>input {
+    background-color: #202124;
+    border-radius: 10px;
+    width: 418px;
+    height: 50px;
+    border: none;
+    margin-bottom: 45px;
+}
+
+h4 {
+    margin: 5px;
+    display: contents;
+}
+
+.card>span {
+    color: #00CB18;
+    position: relative;
+    left: 200px;
+}
+
+
+
+.button>input {
+    background-color: #00CB18;
+    color: #000000;
+    padding-left: 183.7px;
+    padding-right: 184.3px;
+    padding-top: 13.9px;
+    padding-bottom: 16.1px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 26px;
+    width: 422px;
+    height: 54px;
+}
+
+.box {
+    width: 100%;
+    height: 311px;
+    position: relative;
+    top: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: #9AA0A6;
+    column-gap: 50px;
+}
+
+.card1>span {
+    color: white;
+}
+
+
+.card2>span {
+    color: white;
+}
