@@ -61,13 +61,13 @@ h2 {
 }
 
 .details>input {
-    width: 305px;
+    width: 605px;
     border-radius: 6px;
-
-    background-color: #ffff;
-    height: 21px;
+    height: 40px;
     color: #737988;
-    border: #737988;
+    border: none;
+    background-color: #F7FBFF;
+    border-color: #737988;
 }
 
 .email {
@@ -82,13 +82,13 @@ h2 {
 }
 
 .details>p {
-    padding-left: 220px;
+    padding-left: 520px;
     font-size: x-small;
     color: #ff0000;
 }
 
 .button>input {
-    width: 305px;
+    width: 605px;
     border-radius: 20px;
     background-color: #F54749;
     height: 31px;
@@ -103,22 +103,25 @@ h2 {
 
 .social>p {
     color: #718096;
-    padding-left: 90px;
+    padding-left: 240px;
     font-size: 12px;
+    margin-top: 25px;
 }
 
 .social>img {
     width: 223px;
     height: 52px;
-    padding-left: 40px;
+    padding-left: 190px;
 }
 
 .social>h3 {
     color: #777E90;
     font-size: 16px;
+    display: flex;
+    justify-content: center;
     font-weight: 600;
-    padding-top: 35px;
-    padding-left: 45px;
+    padding-top: 10px;
+
 }
 
 span {

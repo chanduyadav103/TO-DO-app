@@ -6,76 +6,107 @@ body {
     height: 100%;
 }
 
-.container {
-    padding-top: 100px;
+* {
+    box-sizing: border-box;
+
 }
 
-.login {
+.container {
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 208px;
+    padding-left: 553px;
+    padding-right: 553px;
+    background-color: #F6F8FB;
 
 }
 
-
-h1 {
-    color: #4c4b4b;
-    height: 10px;
-    text-align-last: center;
+img {
+    width: 140px;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-left: 158px;
 
 }
-
 
 .card {
-    width: 350px;
-    height: 400px;
-    background-color: #ffffff;
-}
-
-h3 {
-
-    font-weight: bolder;
-    color: black;
-    padding-left: 60px;
-    padding-top: 15px;
+    width: 465px;
+    height: 465px;
+    border: solid 2px;
+    border-color: #DEE4ED;
+    background-color: #ffff;
+    padding-left: 41px;
+    padding-right: 41px;
+    padding-top: 41px;
+    padding-bottom: 41px;
 
 }
 
-p {
-
-    padding-left: 15.21px;
-    padding-right: 15.79px;
-    padding-bottom: 30px;
-    font-size: small;
-    color: #a69f9f;
-    padding-left: 50px;
+.image {
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    margin-left: 168px;
 }
 
-input {
-    width: 350px;
-    height: 30px;
-    background-color: white;
-    border-style: solid;
-    border-color: #4c4b4b;
+
+.card>h1 {
+    margin: 0;
+    padding-left: 73px;
+    font-size: 24px;
+}
+
+.text {
+    color: #788BA5;
+    font-size: 14px;
+    padding-left: 36px;
+}
+
+.btn {
+    width: 375px;
+    height: 35px;
+    background-color: #ffff;
+    border-color: #DEE4ED;
     border-radius: 5px;
-
+    color: #000000;
 }
 
-h4 {
-    font-weight: 600;
-    height: 0;
 
+.to {
+    color: #788BA5;
+    padding-left: 175px;
 }
 
-.pass p {
+.f1 {
+    margin-bottom: 6px;
+    margin-top: 10px;
+    padding-left: 12px;
+}
+
+.pswd {
     display: flex;
-    color: #1274ed;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
-.log input {
-    background-color: #6e05d0;
-    display: flex;
-    justify-content: center;
+.pswd>span {
+    color: #117DF9;
+}
+
+.log {
+    background-color: #624de3;
+    border-color: #4938c3;
     color: white;
+    margin-top: 20px;
+}
+
+.te {
+    font-size: 14px;
+    padding-left: 140px;
+}
+
+.te>span {
+    color: #117DF9;
 }

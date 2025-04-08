@@ -32,7 +32,7 @@ body {
 }
 
 .login {
-
+    width: 719px;
     height: 344px;
     padding-left: 240px;
     padding-right: 160px;
@@ -46,70 +46,63 @@ h2 {
     padding-bottom: 24px;
 }
 
-.login>input {
+.btn {
 
     height: 34px;
+    width: 350px;
     background-image: url(./image/Img.png);
     background-position: left;
     background-repeat: no-repeat;
     background-size: 16px;
     border-radius: 8px;
     background-color: white;
-    padding-left: 108.71px;
-    padding-right: 108.29px;
+
     padding-top: 7.5px;
     padding-bottom: 8px;
     color: #455EED;
+    border-color: #455EED;
+    margin-bottom: 18px;
 }
 
 .details {
     width: 352px;
     height: 120px;
-    position: relative;
-    top: 44px;
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
-.details>input {
+.btnmail {
     width: 352px;
     height: 32px;
     border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     background-color: #f6f6f6;
     border: none;
+    margin-bottom: 20px;
 }
 
-.details1 {
+.btncheck {
     width: 352px;
     height: 32px;
-    position: relative;
-    top: 24px;
-}
-
-.details1>input {
-    font-size: small;
-    color: black;
-    padding-left: 9px;
-    padding-right: 9px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-}
-
-.details1>p {
-    color: #455EED;
-    position: relative;
-    left: 245px;
-    bottom: 34px;
-    text-decoration: underline;
-}
-
-.sign>input {
-    width: 352px;
-    height: 32px;
-    border-radius: 5px;
-    background-color: #A7A5A5;
+    border-radius: 10px;
     color: #f6f6f6;
     border: none;
-    position: relative;
-    top: 44px;
+    margin-bottom: 20px;
+    background-color: #A7A5A5;
+    margin-top: 30px;
+
+}
+
+.check {
+    padding-left: 10px;
+}
+
+span {
+    color: #455EED;
+    text-decoration: underline;
+    padding-left: 129px;
 }
 
 .img {

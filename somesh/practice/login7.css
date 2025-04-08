@@ -32,13 +32,15 @@ body {
     height: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .login>img {
     width: 140px;
     height: 40px;
     position: relative;
-    left: 255px;
+
     top: 90px;
 }
 
@@ -83,11 +85,11 @@ span>p {
 span>input {
     background-color: #3e3ef4;
     color: #ffffff;
-    width: 535px;
+    width: 548px;
     height: 40px;
     border: none;
     border-radius: 10px;
-    margin-left: 35px;
+    margin-left: 25px;
 }
 
 .account {
