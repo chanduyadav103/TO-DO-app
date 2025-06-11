@@ -468,9 +468,13 @@ const mobiles = [
 ];
 
 for (let mobile of mobiles) {
-    for (key in mobile) {
-
-        console.log(`${mobile}`)
-        console.log(`${key} : ${mobile[key]}`)
+    console.log(` id :${mobile.id}`)
+    console.log(` brand :${mobile.brand}`)
+    console.log(` model :${mobile.model}`)
+    console.log(` colors :${mobile.colors}`)
+    console.log(` prize :${mobile.prize}`)
+    for (let key in mobiles) {
+        console.log(`${key} :${prize[key]}`)
     }
-} 
+
+}
