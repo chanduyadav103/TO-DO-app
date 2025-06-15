@@ -93,7 +93,7 @@ console.log("--------------------------------------------------");
 
 
 function vowels(str) {
-    let vowels = ['a', 'e', 'o', 'i', 'u']
+    let vowels = ['a', 'e', 'o', 'i', 'u', 'A', 'E', 'O', 'I', 'U']
     let count = 0
     for (let i = 0; i < str.length; i++)
         if (vowels.includes(str[i])) {
@@ -217,6 +217,7 @@ function space(str) {
             result = result + str[i];
         }
     }
+
     return result;
 }
 console.log(space("hell o wo rl d"))
@@ -273,16 +274,12 @@ function count(num) {
     for (let i = 0; i < num.length; i++) {
         if (num[i] > 0) {
             positive++
-
-
         }
         else if (num[i] < 0) {
             negative++
-
         }
         else {
             zero++
-
         }
 
     }
