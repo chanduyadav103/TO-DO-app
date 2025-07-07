@@ -1,0 +1,206 @@
+<<<<<<< Updated upstream
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #E9F5F5;
+}
+
+* {
+    box-sizing: border-box;
+    overflow: hidden;
+=======
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+  padding: 0%;
+  margin: 0%;
+  background-color: #e9f5f5;
+>>>>>>> Stashed changes
+}
+.container {
+<<<<<<< Updated upstream
+    width: 100%;
+    height: 100%;
+    background: url(./image/Group.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+=======
+  width: 100%;
+  height: 100%;
+  background: url(/somesh/practice/image/Group.png);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+>>>>>>> Stashed changes
+}
+.image {
+  width: 500px;
+  height: 687.63px;
+  background-color: #fdfdfd;
+  padding: 40px;
+}
+.btn {
+  width: 100%;
+  height: 44px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  background-color: #d0d8eaba;
+  border: none;
+}
+.btnmail {
+  width: 100%;
+  height: 44px;
+  border-radius: 50px;
+  padding-left: 40px;
+  margin-bottom: 20px;
+}
+span > input {
+  background-color: #1668e3;
+  color: #ffffff;
+  border: none;
+}
+<<<<<<< Updated upstream
+
+.card {
+    width: 400px;
+    height: 622px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #3F434A;
+    padding-left: 30px;
+}
+
+h2>span {
+    padding-left: 99px;
+}
+
+.btn {
+    width: 95%;
+    height: 44px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    border: none;
+
+}
+
+.card>p {
+    color: #000000;
+    padding-left: 15px;
+    margin: 0;
+    font-size: 14px
+}
+
+.btnmail {
+    width: 100%;
+    height: 44px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    border: solid 1px;
+    border-color: #ACB1B9;
+
+}
+
+span>input {
+    border: none;
+    color: #ffff;
+    background-color: #1668E3;
+    margin: 0;
+}
+
+.mail>p {
+    color: #6A707C;
+    font-size: 12px;
+    padding-left: 39px;
+    margin-top: 0;
+}
+
+p>span {
+    text-decoration: underline;
+}
+
+.dev {
+
+    height: 105px;
+    background-color: #F6F7F9;
+    border-radius: 15px;
+    border: none;
+    margin-left: 10px;
+    padding-left: 18px;
+    display: flex;
+    column-gap: 13px;
+    width: 390px;
+    column-gap: 112px;
+    align-items: center;
+
+
+}
+
+.dev>p {
+    font-size: 14px;
+    color: #5E646E;
+    width: 226px;
+}
+
+.p {
+    color: #6A707C;
+
+}
+
+.p>span {
+    text-decoration: underline;
+}
+=======
+.group {
+  width: 90px;
+  height: 102.33px;
+}
+.dev {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 420px;
+  height: 134.33px;
+  background-color: #f6f7f9;
+  padding: 16px 32px;
+  margin-top: 16px;
+  gap: 40px;
+}
+.p {
+  margin-top: 16px;
+  text-align: center;
+  color: #6a707c;
+}
+.p > span {
+  text-decoration: underline;
+  color: #6a707c;
+  text-underline-offset: 4px;
+}
+.email {
+  color: white;
+  background-color: #1668e3;
+}
+>>>>>>> Stashed changes

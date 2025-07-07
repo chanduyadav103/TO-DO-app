@@ -26,7 +26,7 @@ function login() {
     localStorage.setItem('email', email);
     localStorage.setItem('password', password);
     localStorage.setItem('number', number);
-    alert("Login credentials saved ");
+    alert("Login details saved ");
 }
 
 function getdata() {
@@ -38,7 +38,7 @@ function getdata() {
     if (email !== undefined && password !== undefined) {
         alert("name:" + name + "Email: " + email + "Password: " + password + "number:" + number);
     } else {
-        alert("No credentials found");
+        alert("No detials found");
     }
 }
 
@@ -47,7 +47,7 @@ function removedata() {
     localStorage.removeItem('email');
     localStorage.removeItem('password');
     localStorage.removeItem('number');
-    alert("Credential removed");
+    alert("detials removed");
 }
 
 

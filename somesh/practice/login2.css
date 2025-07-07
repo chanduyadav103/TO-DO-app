@@ -1,0 +1,115 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    column-gap: 24px;
+    background-color: white;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 30%;
+    position: absolute;
+    top: 10%;
+    left: 21%
+}
+
+.login {
+    width: 719px;
+    height: 344px;
+    padding-left: 240px;
+    padding-right: 160px;
+    position: relative;
+    top: 270px;
+
+}
+
+h2 {
+    padding-left: 48px;
+    padding-bottom: 24px;
+}
+
+.btn {
+
+    height: 34px;
+    width: 350px;
+    background-image: url(./image/Img.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    border-radius: 8px;
+    background-color: white;
+
+    padding-top: 7.5px;
+    padding-bottom: 8px;
+    color: #455EED;
+    border-color: #455EED;
+    margin-bottom: 18px;
+}
+
+.details {
+    width: 352px;
+    height: 120px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.btnmail {
+    width: 352px;
+    height: 32px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #f6f6f6;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.btncheck {
+    width: 352px;
+    height: 32px;
+    border-radius: 10px;
+    color: #f6f6f6;
+    border: none;
+    margin-bottom: 20px;
+    background-color: #A7A5A5;
+    margin-top: 30px;
+
+}
+
+.check {
+    padding-left: 10px;
+}
+
+span {
+    color: #455EED;
+    text-decoration: underline;
+    padding-left: 129px;
+}
+
+.img {
+    width: 60%;
+}
+
+.img>img {
+    width: 86%;
+    height: 94%;
+}
