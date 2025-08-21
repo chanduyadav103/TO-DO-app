@@ -75,31 +75,17 @@ app.put('/v1/api/update-movie/:id', (req, res) => {
     const movieToUpdate = req.params.id;
     const movieDataToUpdate = req.body;
 
-    // Approach 1
-    // movies.forEach(m => {
-    //     if (m.id == movieToUpdate) {
-    //         for (let key in movieDataToUpdate) {
-    //             m[key] = movieDataToUpdate[key];
-    //         }
-    //     }
-    // })
+    movies.forEach(m => {
+        if (m.id == movieToUpdate) {
+            for (let key in movieDataToUpdate) {
+                m[key] = movieDataToUpdate[key];
+            }
+        }
+    })
 
-    // res.status(201).json({
-    //     message: 'Movie Updated.',
-    //     movie: movies[Number(movieToUpdate) - 1]
-    // })
-
-    // Approach 2
-    const movie = movies.filter(m => m.id == movieToUpdate)[0];
-
-    for (let key in movieDataToUpdate) {
-        movie[key] = movieDataToUpdate[key];
-    }
-
-    movies[Number(movieToUpdate) - 1] = movie;
     res.status(201).json({
         message: 'Movie Updated.',
-        movie: movie
+        movie: movies[Number(movieToUpdate) - 1]
     })
 });
 
