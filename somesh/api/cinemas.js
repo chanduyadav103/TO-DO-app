@@ -55,7 +55,7 @@ app.get(`/${version}/api/id-get/:id`, (req, res) => {
 })
 //search
 app.post(`/${version}/api/search`, (req, res) => {
-    const { name, genre, language, release_year } = req.body;
+    const { name, genre, language, cast, release_year } = req.body;
 
     let filteredcinemas = cinemas;
 
@@ -71,11 +71,22 @@ app.post(`/${version}/api/search`, (req, res) => {
         );
     }
 
+
     if (language) {
         filteredcinemas = filteredcinemas.filter(c =>
             c.language.toLowerCase().includes(language.toLowerCase())
         );
     }
+
+    if (cast) {
+        filteredbycast = cinemas.filter(c =>
+            c.cast.filter(member =>
+                member.name.toLowerCase().includes(cast.toLowerCase())
+            ).length > 0
+        );
+        filteredbycast = filteredcinemas;
+    }
+
 
     if (release_year) {
         filteredcinemas = filteredcinemas.filter(c =>
@@ -83,10 +94,12 @@ app.post(`/${version}/api/search`, (req, res) => {
         );
     }
 
+
     res.status(200).json({
         message: "search results retrieved successfully",
         cinema: filteredcinemas,
-        count: filteredcinemas.length
+        count: filteredcinemas.length,
+
     });
 });
 
