@@ -1,110 +1,239 @@
-/* General Styles */
-body {
-    font-family: Arial, sans-serif;
+/* Reset */
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    color: #333;
 }
 
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
+body {
+    line-height: 1.6;
 }
 
 /* Header */
 header {
+    width: 100%;
+    height: 60px;
     background: #fff;
-    padding: 20px 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.logo {
-    font-weight: bold;
-    font-size: 1.5rem;
-    color: #4CAF50;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 nav {
     display: flex;
-    gap: 20px;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 20px;
+    height: 100%;
 }
 
-nav a {
-    text-decoration: none;
-    color: #333;
+.logo {
+    height: 30px;
 }
 
-.btn-primary {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 4px;
+.nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav-links a {
+    color: #000;
     text-decoration: none;
+    font-size: 14px;
+}
+
+.btn {
+    background: #4CAF50;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 /* Hero Section */
-.hero {
-    text-align: center;
-    padding: 60px 20px;
-    background-color: #f7f7f7;
+.home {
+    background: #c8e6c9cc;
+    padding-top: 80px;
 }
 
-.hero h1 {
-    font-size: 2.5rem;
+.container {
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    flex-wrap: wrap;
 }
 
-.hero h1 span {
+.text {
+    max-width: 500px;
+}
+
+.text h1 {
+    font-size: 48px;
+}
+
+.text h1 span {
     color: #4CAF50;
 }
 
-.hero p {
+.text p {
     margin: 20px 0;
 }
 
-.hero-image img {
-    max-width: 100%;
+.image img {
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Clients */
+.clients {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.logos img {
+    width: 60px;
     height: auto;
 }
 
-.clients {
+/* Features */
+.features {
     text-align: center;
-    padding: 40px 20px;
+    padding: 60px 20px;
 }
 
-.clients .logos {
+.membership {
     display: flex;
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
-    margin-top: 20px;
-}
-
-.features {
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    padding: 40px 20px;
+    margin-top: 40px;
 }
 
 .feature {
-    max-width: 300px;
+    width: 250px;
+    background: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
 }
 
-.footer-cta {
-    background-color: #eee;
-    text-align: center;
-    padding: 40px 20px;
-}
-
-.footer-cta .stats {
+/* Pixelgrade */
+.pixelgrade {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 40px;
-    margin-top: 20px;
+    padding: 60px 20px;
+    flex-wrap: wrap;
 }
 
-.footer-cta .stats div {
+.pixel img {
+    width: 400px;
+    max-width: 100%;
+}
+
+/* Footer Design */
+.design {
+    background: #fff;
+    padding: 60px 20px;
+}
+
+.footer {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-image img {
+    width: 300px;
+    max-width: 100%;
+}
+
+/* Testimonial */
+.tim {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    padding: 60px 20px;
+    background: #f9f9f9;
+    flex-wrap: wrap;
+}
+
+.smith {
+    max-width: 600px;
+}
+
+/* Marketing */
+.marketing {
     text-align: center;
+    padding: 60px 20px;
+}
+
+.marketing-items {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .text h1 {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .pixelgrade {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .tim {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .text h1 {
+        font-size: 28px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .feature {
+        width: 100%;
+    }
 }

@@ -17,11 +17,10 @@ header {
     top: 0;
     left: 0;
     z-index: 1;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 nav {
-    max-width: 1200px;
+    width: 100%;
     margin: 0;
     padding: 0 20px;
     height: 100%;
@@ -57,7 +56,6 @@ nav ul button {
     border: none;
     color: white;
     font-size: 12px;
-    cursor: pointer;
 }
 
 .home,
@@ -193,8 +191,8 @@ h1 span {
 }
 
 .pixelgrade {
-    width: 1200px;
-    margin: 40px;
+    width: 100%;
+    margin: 20px;
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
@@ -428,7 +426,7 @@ h1 span {
     }
 
     .text,
-    .hero-image {
+    .image {
         max-width: 100%;
     }
 
@@ -463,8 +461,13 @@ h1 span {
         align-self: center;
     }
 
-    .hero-image {
+    .image {
         justify-content: center;
+    }
+
+    .text {
+        text-align: center;
+        text-align: justify;
     }
 
     .clients h2 {
@@ -484,7 +487,7 @@ h1 span {
         width: 90%;
     }
 
-    .footer- {
+    .footer {
         flex-direction: column;
         text-align: center;
     }
@@ -503,11 +506,11 @@ h1 span {
         text-align: center;
     }
 
-    .content h2 {
+    .footer h2 {
         font-size: 18px;
     }
 
-    .content p {
+    .footer p {
         font-size: 14px;
     }
 }
@@ -526,7 +529,7 @@ h1 span {
         width: 100%;
     }
 
-    .text-content h1 {
+    .text h1 {
         font-size: 32px;
     }
 
@@ -534,12 +537,19 @@ h1 span {
         font-size: 18px;
     }
 
+    .pixelgrade .pixel {
+        display: flex;
+        justify-content: center;
+    }
+
+    .subtext {
+        text-align: center;
+        font-size: 16px;
+    }
+
     .logos {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-
-
-
 }
