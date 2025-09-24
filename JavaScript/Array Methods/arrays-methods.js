@@ -33,7 +33,7 @@ const ArrayMapValue = bikes.map((bike, index) => {
         return bike
     }
 });
-// console.log("ArrayMapValue:::::::::::", ArrayMapValue)
+// console.log("ArrayMapValue::", ArrayMapValue)
 
 const ArrayFilterValue = bikes.filter((bike, index) => {
     if (bike.year < 2022) {
