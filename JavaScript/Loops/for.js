@@ -7,7 +7,10 @@ for(declaration/initialization; condition; increment/decrement) {
 */
 
 // Example: 
-for (let i = 0; i <= 10; i++) {
+
+
+i
+for (let i = 0; i <= ; i++) {
     console.log(i);
 }
 
@@ -30,6 +33,8 @@ let students = [
 ]
 for (let i = 0; i < students.length; i++) {
     console.log('----------------');
+
+    console.log(`Name: ${students}`)
     console.log(`Name: ${students[i].name}`)
     console.log(`Roll No.: ${students[i].rollno}`)
     console.log(`Group: ${students[i].grp}`)

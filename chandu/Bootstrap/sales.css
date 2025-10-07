@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    min-height: 100vh;
+}
+
+
+.card-3,
+.card-1,
+.card-2,
+.card-4 {
+    height: 150px;
+    background-color: rgba(141, 93, 189, 0.356);
+}
+
+.card-r {
+    height: 300px;
+    background-color: rgba(127, 89, 165, 0.356);
+}
+
+.card-down {
+    height: 300px;
+    background-color: rgba(103, 80, 126, 0.356);
+}

@@ -1,156 +1,155 @@
-html,
-body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-}
+ HEAD html,
+ body {
+     margin: 0;
+     padding: 0;
+     width: 100%;
+     height: 100%;
+     box-sizing: border-box;
+ }
 
-.container {
-    width: 100%;
-    height: 100%;
-}
+ .container {
+     width: 100%;
+     height: 100%;
+     margin: 0;
+     padding: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
 
-.card {
-    width: 40%;
-    height: 100%;
-    background-color: blue;
-    float: left;
-    left: 20px;
-    color: white;
-}
-
-.card1 {
-    width: 60%;
-    height: 100%;
-    float: left;
-    left: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
+ .card {
+     width: 40%;
+     height: 610px;
+ }
 
 
-h2 {
-    padding-left: 50px;
-    padding-top: 40px;
-    font-weight: bold;
-    font-size: 34px;
-}
 
-h3 {
-    font-weight: bold;
-    font-size: 40px;
-    padding-top: 80px;
-    display: flex;
-    justify-content: center;
-}
+ .card img {
+     margin-left: 0;
+     width: 100%;
+     height: 100%;
+     overflow: hidden;
+ }
 
-h4 {
-    font-size: 24px;
-    display: flex;
-    justify-content: center;
-}
 
-.card2 {
-    width: 370px;
-    height: 400px;
-    padding: 5px;
-}
 
-.welcome {
-    font-size: 24px;
-    margin: 0px;
-}
+ .card1 {
+     width: 60%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-top: 20px;
+ }
 
-p {
-    margin: 5px;
-}
+ .card2 {
+     width: 370px;
+     padding: 5px;
+ }
 
-.mail {
-    font-size: 14px;
-    margin-bottom: 5px;
-    margin-top: 40px;
-    font-weight: 14px;
-}
+ .welcome {
+     font-size: 24px;
+     margin: 0px;
+ }
 
-.input {
-    width: 360px;
-    height: 22px;
-    border-radius: 6px;
-    border: rgba(128, 128, 128, 0.349);
-    margin: 0;
-    background-color: rgba(128, 128, 128, 0.116);
-}
+ p {
+     margin: 5px;
+ }
 
-.pack {
-    margin-top: 20px;
-}
+ .mail {
+     font-size: 14px;
+     margin-bottom: 5px;
+     margin-top: 40px;
+     font-weight: 14px;
+ }
 
-.password {
-    width: 360px;
-    height: 22px;
-    border-radius: 6px;
-    border: rgba(128, 128, 128, 0.575);
-    margin: 0;
-    background-color: rgba(128, 128, 128, 0.096);
-}
+ .input {
+     width: 360px;
+     height: 30px;
+     border-radius: 6px;
+     margin: 0;
+     padding-left: 10px;
+     background-color: #777e902c;
+     border: none;
+     color: #777E90;
+ }
 
-.forgot {
-    display: flex;
-    justify-content: flex-end;
-    color: #FF0000;
-}
+ .input:hover {
+     color: black;
+ }
 
-.button {
-    background-color: #FF0000;
-    color: white;
-    width: 365px;
-    height: 35px;
-    position: fixed;
-    bottom: 200px;
-    border-radius: 18px;
-    border: none;
-}
+ .pack {
+     margin-top: 20px;
+ }
 
-.account {
-    font-size: 10px;
-    width: 365px;
-    height: 28px;
-    position: fixed;
-    bottom: 150px;
-    right: 90px;
-}
+ .password:hover {
+     color: black;
+ }
 
-.photo {
-    position: fixed;
-    bottom: 135px;
-    right: 460px;
-    border-radius: 400%;
-}
+ .password {
+     width: 360px;
+     height: 30px;
+     border-radius: 6px;
+     margin: 0;
+     padding-left: 10px;
+     background-color: #777e9034;
+     border: none;
+     color: #777E90;
+ }
 
-.photo1 {
-    position: fixed;
-    bottom: 130px;
-    right: 390px;
-    border-radius: 400%;
-}
+ .forgot {
+     text-decoration: none;
+     font-size: 11px;
+     display: flex;
+     justify-content: flex-end;
+     color: #FF0000;
+ }
 
-.photo2 {
-    position: fixed;
-    bottom: 130px;
-    right: 320px;
-    border-radius: 400%;
-}
+ .button {
+     background-color: #FF0000;
+     color: white;
+     width: 365px;
+     height: 35px;
+     margin-top: 20px;
+     border-radius: 18px;
+     border: none;
+ }
 
-span {
-    color: black;
-}
+ .account {
+     font-size: 10px;
+     width: 365px;
+     height: 28px;
+     text-align: center;
+     margin-top: 20px;
+ }
 
-.sign {
-    position: fixed;
-    bottom: 70px;
-    right: 300px;
-    border-radius: 400%;
-}
+ .images {
+     display: flex;
+     justify-content: center;
+     gap: 15px;
+     margin-top: 20px;
+ }
+
+ .images img {
+     border-radius: 50%;
+     cursor: pointer;
+     transition: transform 0.3s;
+ }
+
+ .images img:hover {
+     transform: scale(1.2);
+ }
+
+ .photo,
+ .photo2,
+ .photo1 {
+     border-radius: 50%;
+ }
+
+ span {
+     color: black;
+ }
+
+ .sign {
+     margin-top: 15px;
+     text-align: center;
+ }

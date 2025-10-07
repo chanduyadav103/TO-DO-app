@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f7f9fc;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    width: 100%;
+    padding: 1rem;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 2rem;
+}
+
+.card {
+    background: #fff;
+    padding: 2.5rem;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 420px;
+    text-align: center;
+}
+
+.account h1 {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+    color: #222;
+}
+
+button.google {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+button.google:hover {
+    background: #f1f1f1;
+}
+
+hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #eee;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+}
+
+input[type="email"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+/* Email Button */
+.btn {
+    width: 100%;
+    padding: 12px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+.agree {
+    font-size: 12px;
+    margin: 15px 0;
+    color: #555;
+}
+
+.agree span {
+    color: #007bff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.product .help {
+    font-size: 13px;
+    color: #444;
+    flex: 1;
+}
+
+.product img {
+    width: 80px;
+    height: auto;
+    margin-left: 15px;
+}
+
+.join {
+    color: #007bff;
+    font-weight: bold;
+    cursor: pointer;
+}

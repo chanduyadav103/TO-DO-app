@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "api creation",
+  "main": "app.js",
+  "scripts": {
+    "start" : "node api.js",
+    "server" : "nodemon api.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teja8352/reify-labs-batch-one.git"
+  },
+  "author": "chandu yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teja8352/reify-labs-batch-one/issues"
+  },
+  "homepage": "https://github.com/teja8352/reify-labs-batch-one#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
