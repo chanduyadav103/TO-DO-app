@@ -513,12 +513,18 @@
                     <option value="Education">Education</option>
                     <option value="Other">Other</option>
                 </select>
+                <select id="task-priority" class="select-input">
+                    <option value="Low">Low Priority</option>
+                    <option value="Medium">Medium Priority</option>
+                    <option value="High"> High Priority</option>
+                </select>
+
 
             </div>
 
             <input type="date" id="task-date" class="select-input" style="width: 100%; margin-bottom: 15px;" />
 
-            <button class="btn" onclick="addtask()"> Add Task</button>
+            <button class="btn" onclick="addtask()"> Add task</button>
             <button class="btn" onclick="clearAll()" style="background-color: #666;"> Clear All</button>
         </div>
     </div>
@@ -530,12 +536,6 @@
             <input type="text" id="searchBox" class="search-box" placeholder=" Search tasks..."
                 onkeyup="filterTasks()" />
 
-
-            <div class="filter-container">
-                <button class="crud-btn add-btn" onclick="addTask()">Add Task</button>
-                <button class="crud-btn edit-btn" onclick="editSelectedTask()"> Edit</button>
-                <button class="crud-btn delete-btn" onclick="deleteSelectedTask()"> Delete</button>
-            </div>
 
             <div id="taskList"></div>
         </div>
@@ -558,9 +558,9 @@
                 <option value="Other">Other</option>
             </select>
             <select id="editPriority" class="select-input" style="width: 100%; margin-bottom: 10px;">
-                <option value="Low">⬇Low Priority</option>
+                <option value="Low">Low Priority</option>
                 <option value="Medium">Medium Priority</option>
-                <option value="High">⬆High Priority</option>
+                <option value="High">High Priority</option>
             </select>
             <input type="date" id="editDate"
                 style="width: 100%; padding: 10px; margin-bottom: 10px; border: 2px solid #ddd; border-radius: 5px; font-family: 'Poppins', sans-serif;" />
